@@ -1,0 +1,54 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 10px;
+    i{
+      font-size: 30px;
+    }
+  }
+  .container{
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto; /*background: #75623;*/
+  }
+  .main{
+    height: calc(100% - 50px);
+    text-align: center;
+  }
+  .main-title{
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    font-style: arial;
+    margin-top: 43px;
+  }
+  .title{
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+    font-style: arial;
+     /*margin top, margin bottomю Відступ*/
+  }
+  .img-wrapper{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 33px auto 0;
+  }
+  .developer-photo{
+    width: 170px;
+    margin-top: -40px;
+  }
+  button{
+    width: 208px;
+    height: 47px;
+    border: none;
+    background: #FF6464;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+    font-weight: normal;
+  }
